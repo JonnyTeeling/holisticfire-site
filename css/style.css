@@ -273,5 +273,7 @@ footer.site .footer-logo{height:2.4rem;width:auto;margin-bottom:1rem}
 
 .accreditations img{max-width:900px;width:100%}
 
+.case-thumb{width:calc(100% + 3rem);max-width:none;margin:-1.6rem -1.5rem .6rem;height:190px;object-fit:cover}
+
 .case-img{margin:0 0 2.2rem}
 .case-img img{width:100%;max-width:46rem;max-height:460px;object-fit:cover;border:1px solid var(--line)}
