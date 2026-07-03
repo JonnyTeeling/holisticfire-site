@@ -280,3 +280,44 @@ footer.site .footer-logo{height:2.4rem;width:auto;margin-bottom:1rem}
 
 .case-img{margin:0 0 2.2rem}
 .case-img img{width:100%;max-width:46rem;max-height:460px;object-fit:cover;border:1px solid var(--line)}
+
+/* ---------- case study detail pages ---------- */
+.cs-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:1.25rem;margin-bottom:3rem}
+@media (max-width:720px){.cs-stats{grid-template-columns:1fr}}
+.stat{background:var(--ink);color:var(--white);padding:1.5rem 1.4rem;border-bottom:4px solid var(--red)}
+.stat strong{display:block;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:2.6rem;line-height:1.1;color:var(--red)}
+.stat span{color:#C4CBD2;font-size:.9rem;display:block;margin-top:.35rem}
+
+.cs-grid{display:grid;grid-template-columns:1fr 340px;gap:3rem;align-items:start}
+@media (max-width:900px){.cs-grid{grid-template-columns:1fr}}
+
+.cs-content{max-width:46rem}
+.cs-content p{margin-bottom:1.2rem}
+.cs-content h2{display:flex;align-items:center;gap:.7rem;margin:2.6rem 0 1.1rem}
+.cs-content h2:first-child{margin-top:0}
+.cs-content h2::before{content:"";width:1.5rem;height:3px;background:var(--red);flex:none}
+.cs-content h3{margin:1.6rem 0 .7rem;color:var(--steel);letter-spacing:.04em}
+.cs-content ul{list-style:none;margin:0 0 1.4rem}
+.cs-content li{position:relative;padding-left:1.4rem;margin-bottom:.55rem}
+.cs-content li::before{content:"";position:absolute;left:0;top:.5em;width:.5rem;height:.5rem;background:var(--red)}
+
+.cs-outcome{background:var(--ink);color:#DDE2E7;padding:2.2rem 2rem;margin:2.6rem 0}
+.cs-outcome h2{color:var(--white);margin-top:0}
+.cs-outcome li{margin-bottom:.7rem}
+
+.cs-close{font-family:'Barlow Condensed',sans-serif;font-weight:600;text-transform:uppercase;font-size:1.35rem;line-height:1.4;border-left:4px solid var(--red);padding-left:1.25rem;margin:2.4rem 0}
+.cs-back{font-family:'Barlow Condensed',sans-serif;text-transform:uppercase;font-weight:600;letter-spacing:.06em;color:var(--red);text-decoration:none}
+.cs-back:hover{text-decoration:underline}
+
+.cs-aside{display:flex;flex-direction:column;gap:1.5rem;position:sticky;top:5.5rem}
+@media (max-width:900px){.cs-aside{position:static}}
+.cs-photo{margin:0}
+.cs-photo img{width:100%;max-height:300px;object-fit:cover;border:1px solid var(--line)}
+.cs-facts{background:var(--white);border:1px solid var(--line);border-top:4px solid var(--red);padding:1.6rem 1.5rem}
+.cs-facts h3{margin-bottom:1.1rem}
+.cs-fact-label{color:var(--red);font-size:.75rem;font-weight:600;text-transform:uppercase;letter-spacing:.12em;margin-bottom:.1rem}
+.cs-fact-value{font-weight:600;margin-bottom:1rem}
+.cs-fact-list{list-style:none;margin:1.2rem 0 0;border-top:1px solid var(--line);padding-top:1.2rem}
+.cs-fact-list li{position:relative;padding-left:1.3rem;margin-bottom:.6rem;font-size:.9rem;color:var(--steel)}
+.cs-fact-list li::before{content:"";position:absolute;left:0;top:.5em;width:.45rem;height:.45rem;background:var(--red)}
+.cs-aside .btn{text-align:center}
