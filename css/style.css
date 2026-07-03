@@ -309,7 +309,7 @@ footer.site .footer-logo{height:2.4rem;width:auto;margin-bottom:1rem}
   transition:transform .15s ease,box-shadow .15s ease,background .15s ease;
 }
 .logo-cell img{max-height:3.4rem;width:auto;max-width:100%;object-fit:contain}
-a.logo-cell:hover{transform:translateY(-3px);box-shadow:0 10px 24px rgba(23,27,32,.10);background:var(--white)}
+.logo-cell:hover{transform:translateY(-3px);box-shadow:0 10px 24px rgba(23,27,32,.10);background:var(--white)}
 
 .accreditations img{width:100%;margin:0 auto}
 .accreditations-panel{background:var(--white);border:1px solid var(--line);border-top:4px solid var(--red);padding:2.2rem 2rem}
