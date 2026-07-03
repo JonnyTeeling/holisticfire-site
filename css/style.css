@@ -311,9 +311,8 @@ a.logo-cell:hover{transform:translateY(-3px);box-shadow:0 10px 24px rgba(23,27,3
 .logo-cell:hover img{filter:none;opacity:1}
 
 .accreditations img{width:100%;margin:0 auto}
-.accreditations-section{padding:0 0 4.5rem;background:var(--white)}
-.accreditations-title{background:var(--ink);padding:3rem 1.25rem;margin-bottom:3rem}
-.accreditations-title h2{color:var(--white);text-align:center;max-width:var(--max);margin:0 auto;font-size:clamp(2.2rem,5vw,3.4rem)}
+.accreditations-panel{background:var(--white);border:1px solid var(--line);border-top:4px solid var(--red);padding:2.2rem 2rem}
+.accreditations-panel img{width:100%}
 
 .case-thumb{width:calc(100% + 3rem);max-width:none;margin:-1.6rem -1.5rem .6rem;height:190px;object-fit:cover}
 
