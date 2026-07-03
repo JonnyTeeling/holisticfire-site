@@ -366,3 +366,23 @@ a.logo-cell:hover{transform:translateY(-3px);box-shadow:0 10px 24px rgba(23,27,3
 .cs-next-label{display:block;color:var(--red);font-family:'Barlow Condensed',sans-serif;text-transform:uppercase;letter-spacing:.1em;font-weight:600;font-size:.95rem;margin-bottom:.25rem}
 .cs-next-client{display:block;font-family:'Barlow Condensed',sans-serif;font-weight:700;text-transform:uppercase;font-size:1.8rem;line-height:1.1}
 .cs-next-service{display:block;color:var(--steel);font-size:.9rem;margin-top:.3rem}
+
+/* ---------- service detail pages ---------- */
+.svc-lede{font-size:1.25rem;line-height:1.65;font-weight:500}
+.svc-more-head{margin-top:4rem}
+.mini-plate{
+  background:var(--white);border:1px solid var(--line);border-top:4px solid var(--red);
+  padding:1.5rem 1.4rem 1.3rem;display:flex;flex-direction:column;gap:.6rem;
+  text-decoration:none;position:relative;
+  transition:transform .15s ease,box-shadow .15s ease,background .15s ease;
+}
+.mini-plate .tag{
+  position:absolute;top:0;right:1.25rem;transform:translateY(-50%);
+  background:var(--red);color:var(--white);
+  font-family:'Barlow Condensed',sans-serif;font-weight:600;
+  text-transform:uppercase;letter-spacing:.08em;font-size:.8rem;padding:.15rem .55rem;
+}
+.mini-plate h3{font-size:1.15rem}
+.mini-plate .more{font-family:'Barlow Condensed',sans-serif;text-transform:uppercase;font-weight:600;letter-spacing:.06em;color:var(--red);font-size:.95rem}
+.mini-plate:hover{transform:translateY(-3px);box-shadow:0 10px 24px rgba(23,27,32,.12);background:var(--ink)}
+.mini-plate:hover h3{color:var(--white)}
