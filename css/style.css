@@ -5,8 +5,8 @@
 :root{
   --ink:#171B20;
   --paper:#F4F5F2;
-  --red:#C8352B;
-  --red-dark:#A62A22;
+  --red:#E07840;
+  --red-dark:#BE5F2E;
   --steel:#5A6672;
   --line:#D8DAD5;
   --white:#FFFFFF;
@@ -119,7 +119,7 @@ header.site{
 .btn.solid{background:var(--red);color:var(--white)}
 .btn.solid:hover{background:var(--red-dark);border-color:var(--red-dark)}
 .btn.ghost{color:var(--white)}
-.btn.ghost:hover{background:rgba(200,53,43,.18)}
+.btn.ghost:hover{background:rgba(224,120,64,.18)}
 .btn.ink{color:var(--ink)}
 .btn.ink:hover{background:var(--red);color:var(--white)}
 .hero-strip{
