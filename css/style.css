@@ -132,6 +132,24 @@ header.site{
   font-size:1.6rem;color:var(--white);font-weight:700;letter-spacing:.02em;
 }
 
+/* ---------- section head split ---------- */
+.section-head.split{flex-direction:row;justify-content:space-between;align-items:flex-end;flex-wrap:wrap;gap:1.5rem 3rem}
+.section-head.split .lede{margin-bottom:1rem}
+.lede-btn{font-size:.95rem;padding:.55rem 1.1rem}
+@media (max-width:720px){.section-head.split{flex-direction:column;align-items:flex-start}}
+
+/* ---------- urgent reactive band ---------- */
+.urgent-plate{
+  margin-top:1.25rem;display:flex;align-items:center;justify-content:space-between;
+  gap:1.5rem;flex-wrap:wrap;text-decoration:none;
+  background:var(--ink);border-left:6px solid var(--red);padding:1.8rem 2rem;
+  transition:transform .15s ease,box-shadow .15s ease;
+}
+.urgent-plate:hover{transform:translateY(-3px);box-shadow:0 10px 24px rgba(23,27,32,.18)}
+.urgent-plate h3{color:var(--white);margin-bottom:.3rem}
+.urgent-plate p{color:#C4CBD2;font-size:.95rem;max-width:38rem}
+.urgent-plate .btn{white-space:nowrap}
+
 /* ---------- service plates ---------- */
 .grid{display:grid;gap:1.25rem}
 .grid.three{grid-template-columns:repeat(3,1fr)}
@@ -146,7 +164,15 @@ header.site{
   text-decoration:none;position:relative;
   transition:transform .15s ease,box-shadow .15s ease;
 }
-.plate:hover{transform:translateY(-3px);box-shadow:0 10px 24px rgba(49,55,59,.10)}
+.plate:hover{transform:translateY(-3px);box-shadow:0 14px 28px rgba(23,27,32,.16);background:var(--ink)}
+.plate:hover h3{color:var(--white)}
+.plate:hover p{color:#C4CBD2}
+.plate:hover .num{color:rgba(224,120,64,.45)}
+.plate .num{
+  font-family:'Barlow Condensed',sans-serif;font-weight:700;
+  font-size:3rem;line-height:1;color:var(--line);
+  transition:color .15s ease;
+}
 .plate .tag{
   position:absolute;top:0;right:1.25rem;transform:translateY(-50%);
   background:var(--red);color:var(--white);
