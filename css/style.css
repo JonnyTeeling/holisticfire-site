@@ -456,4 +456,29 @@ footer.site .footer-logo{height:2.4rem;width:auto;margin-bottom:1rem}
   .svc-more-head{margin-top:2.6rem}
   .cta-band .btn{width:100%;text-align:center}
   footer.site{padding:2.5rem 0 2rem}
+
+  /* card groups become swipeable rows instead of tall stacks */
+  .grid.three:has(.plate),
+  .grid.three:has(.case),
+  .grid.three:has(.mini-plate){
+    display:flex;overflow-x:auto;gap:.9rem;
+    scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;
+    padding:.4rem .2rem 1rem;scrollbar-width:none;
+  }
+  .grid.three:has(.plate)::-webkit-scrollbar,
+  .grid.three:has(.case)::-webkit-scrollbar,
+  .grid.three:has(.mini-plate)::-webkit-scrollbar{display:none}
+  .grid.three .plate,
+  .grid.three .case,
+  .grid.three .mini-plate{flex:0 0 82%;scroll-snap-align:start}
+  .case-thumb{height:150px}
+
+  /* photos sit side by side instead of stacked */
+  .split-img{grid-template-columns:1fr 1fr;gap:.75rem;margin-top:1.8rem}
+  .split-img img{min-height:150px;max-height:190px}
+
+  /* partner logos 3-up */
+  .logo-grid{grid-template-columns:repeat(3,1fr);gap:.75rem}
+  .logo-cell{min-height:64px;padding:.7rem .6rem}
+  .logo-cell img{max-height:1.9rem}
 }
