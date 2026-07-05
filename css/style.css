@@ -281,7 +281,7 @@ footer.site a:hover{color:var(--white)}
 footer.site .footer-logo{height:2.4rem;width:auto;margin-bottom:1rem}
 
 /* ---------- imagery ---------- */
-.hero{background:linear-gradient(rgba(23,27,32,.84),rgba(23,27,32,.84)),url('/assets/img/home-banner.jpg') center/cover no-repeat}
+.hero{background:linear-gradient(100deg, rgba(23,27,32,.92) 0%, rgba(23,27,32,.72) 45%, rgba(190,95,46,.55) 100%),url('/assets/img/home-banner.jpg') center/cover no-repeat}
 .page-hero.img-services{background:linear-gradient(rgba(23,27,32,.84),rgba(23,27,32,.84)),url('/assets/img/services-banner.jpg') center/cover no-repeat}
 .page-hero.img-about{background:linear-gradient(rgba(23,27,32,.84),rgba(23,27,32,.84)),url('/assets/img/about-banner.jpg') center/cover no-repeat}
 .page-hero.img-home{background:linear-gradient(rgba(23,27,32,.84),rgba(23,27,32,.84)),url('/assets/img/home-banner.jpg') center/cover no-repeat}
