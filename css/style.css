@@ -412,3 +412,48 @@ footer.site .footer-logo{height:2.4rem;width:auto;margin-bottom:1rem}
 .mini-plate .more{font-family:'Barlow Condensed',sans-serif;text-transform:uppercase;font-weight:600;letter-spacing:.06em;color:var(--red);font-size:.95rem}
 .mini-plate:hover{transform:translateY(-3px);box-shadow:0 10px 24px rgba(23,27,32,.12);background:var(--ink)}
 .mini-plate:hover h3{color:var(--white)}
+
+/* ---------- mobile polish ---------- */
+@media (max-width:620px){
+  .wrap{padding:0 1rem}
+  section{padding:2.8rem 0}
+  h1{font-size:2.3rem}
+  h2{font-size:1.7rem}
+  .hero{padding:3.2rem 0 2.8rem}
+  .hero h1{font-size:2.3rem;max-width:none}
+  .hero p{font-size:1.02rem}
+  .hero-actions{margin-top:1.6rem}
+  .hero-actions .btn{width:100%;text-align:center}
+  .hero-strip{margin-top:2.2rem;padding-top:1.2rem;gap:1.1rem;flex-direction:column}
+  .page-hero{padding:2.8rem 0 2.4rem}
+  .page-hero p{font-size:1rem}
+  .brand img{height:2.7rem}
+  .nav{min-height:4rem}
+  .lede{font-size:1.05rem}
+  .plate .num{font-size:2.4rem}
+  .urgent-plate{padding:1.4rem 1.25rem}
+  .urgent-plate .btn{width:100%;text-align:center}
+  .split-img img{min-height:220px;max-height:300px}
+  .team-grid{grid-template-columns:repeat(2,1fr);gap:1rem}
+  .person h3{font-size:1rem;margin-top:.5rem}
+  .person p{font-size:.68rem;letter-spacing:.05em}
+  .logo-cell{min-height:80px;padding:1rem .8rem}
+  .logo-cell img{max-height:2.4rem}
+  .accreditations-panel{overflow-x:auto;-webkit-overflow-scrolling:touch;padding:1.4rem 1rem}
+  .accreditations-panel img{min-width:720px}
+  .cs-stats{gap:.8rem;margin-bottom:2.2rem}
+  .stat{padding:1.1rem 1.1rem}
+  .stat strong{font-size:2rem}
+  .cs-content h2{font-size:1.45rem}
+  .cs-content h3{font-size:1.1rem}
+  .cs-outcome{padding:1.6rem 1.25rem}
+  .cs-close{font-size:1.15rem}
+  .cs-next{padding:1.4rem 1.25rem}
+  .cs-next-client{font-size:1.4rem}
+  .testimonial .mark{font-size:3.4rem;line-height:1}
+  .testimonial blockquote{font-size:1.02rem;line-height:1.75}
+  .svc-lede{font-size:1.1rem}
+  .svc-more-head{margin-top:2.6rem}
+  .cta-band .btn{width:100%;text-align:center}
+  footer.site{padding:2.5rem 0 2rem}
+}
