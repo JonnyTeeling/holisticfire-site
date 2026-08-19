@@ -4,11 +4,14 @@
 
 :root{
   --ink:#171B20;
-  --paper:#F4F5F2;
+  --paper:#F6F2ED;
+  --peach:#F9EBDF;
+  --apricot:#F0CDB0;
   --red:#E07840;
   --red-dark:#BE5F2E;
+  --rust:#A65B2A;
   --steel:#5A6672;
-  --line:#D8DAD5;
+  --line:#DCD6CE;
   --white:#FFFFFF;
   --max:1160px;
 }
@@ -172,7 +175,7 @@ header.site{
 .plate:hover .num{color:rgba(224,120,64,.45)}
 .plate .num{
   font-family:'Barlow Condensed',sans-serif;font-weight:700;
-  font-size:3rem;line-height:1;color:var(--line);
+  font-size:3rem;line-height:1;color:var(--apricot);
   transition:color .15s ease;
 }
 .plate .tag{
@@ -189,7 +192,7 @@ header.site{
 }
 
 /* ---------- values ---------- */
-.values{background:var(--white)}
+.values{background:var(--peach)}
 .value{border-left:3px solid var(--red);padding-left:1.25rem}
 .value h3{margin-bottom:.4rem}
 .value p{color:var(--steel);font-size:.95rem}
@@ -306,7 +309,7 @@ footer.site .footer-logo{height:2.4rem;width:auto;margin-bottom:1rem}
 @media (max-width:1000px){.logo-grid{grid-template-columns:repeat(3,1fr)}}
 @media (max-width:560px){.logo-grid{grid-template-columns:repeat(2,1fr)}}
 .logo-cell{
-  background:var(--paper);border:1px solid var(--line);
+  background:var(--white);border:1px solid var(--line);
   display:flex;align-items:center;justify-content:center;
   padding:1.4rem 1.2rem;min-height:110px;
   transition:transform .15s ease,box-shadow .15s ease,background .15s ease;
@@ -338,7 +341,7 @@ footer.site .footer-logo{height:2.4rem;width:auto;margin-bottom:1rem}
 .cs-content h2{display:flex;align-items:center;gap:.7rem;margin:2.6rem 0 1.1rem}
 .cs-content h2:first-child{margin-top:0}
 .cs-content h2::before{content:"";width:1.5rem;height:3px;background:var(--red);flex:none}
-.cs-content h3{margin:1.6rem 0 .7rem;color:var(--steel);letter-spacing:.04em}
+.cs-content h3{margin:1.6rem 0 .7rem;color:var(--rust);letter-spacing:.04em}
 .cs-content ul{list-style:none;margin:0 0 1.4rem}
 .cs-content li{position:relative;padding-left:1.4rem;margin-bottom:.55rem}
 .cs-content li::before{content:"";position:absolute;left:0;top:.5em;width:.5rem;height:.5rem;background:var(--red)}
@@ -355,7 +358,7 @@ footer.site .footer-logo{height:2.4rem;width:auto;margin-bottom:1rem}
 @media (max-width:900px){.cs-aside{position:static}}
 .cs-photo{margin:0}
 .cs-photo img{width:100%;max-height:300px;object-fit:cover;border:1px solid var(--line)}
-.cs-facts{background:var(--white);border:1px solid var(--line);border-top:4px solid var(--red);padding:1.6rem 1.5rem}
+.cs-facts{background:#FCF4EB;border:1px solid var(--apricot);border-top:4px solid var(--red);padding:1.6rem 1.5rem}
 .cs-facts h3{margin-bottom:1.1rem}
 .cs-fact-label{color:var(--red);font-size:.75rem;font-weight:600;text-transform:uppercase;letter-spacing:.12em;margin-bottom:.1rem}
 .cs-fact-value{font-weight:600;margin-bottom:1rem}
