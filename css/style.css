@@ -4,14 +4,14 @@
 
 :root{
   --ink:#171B20;
-  --paper:#F6F2ED;
-  --peach:#F9EBDF;
-  --apricot:#F0CDB0;
+  --paper:#F5F4F1;
+  --peach:#E9EDF1;
+  --apricot:#EFC9AA;
   --red:#E07840;
   --red-dark:#BE5F2E;
   --rust:#A65B2A;
   --steel:#5A6672;
-  --line:#DCD6CE;
+  --line:#D9DAD7;
   --white:#FFFFFF;
   --max:1160px;
 }
@@ -358,7 +358,7 @@ footer.site .footer-logo{height:2.4rem;width:auto;margin-bottom:1rem}
 @media (max-width:900px){.cs-aside{position:static}}
 .cs-photo{margin:0}
 .cs-photo img{width:100%;max-height:300px;object-fit:cover;border:1px solid var(--line)}
-.cs-facts{background:#FCF4EB;border:1px solid var(--apricot);border-top:4px solid var(--red);padding:1.6rem 1.5rem}
+.cs-facts{background:#F1F4F6;border:1px solid var(--line);border-top:4px solid var(--red);padding:1.6rem 1.5rem}
 .cs-facts h3{margin-bottom:1.1rem}
 .cs-fact-label{color:var(--red);font-size:.75rem;font-weight:600;text-transform:uppercase;letter-spacing:.12em;margin-bottom:.1rem}
 .cs-fact-value{font-weight:600;margin-bottom:1rem}
